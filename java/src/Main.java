@@ -52,6 +52,7 @@ public class Main {
 //        System.out.println(friends);
 //        --------------------------------------------------------------------------------------------------------------
 //        GUI intro
+
 //        String name = JOptionPane.showInputDialog("Enter your name");
 //        JOptionPane.showMessageDialog(null, "Hello "+name);
 //
@@ -60,5 +61,29 @@ public class Main {
 //
 //        Double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
 //        JOptionPane.showMessageDialog(null, "You are"+height+" cm tall");
+//        --------------------------------------------------------------------------------------------------------------
+//        Math class
+//
+//        double x = 3.14;
+//        double y = -10;
+//
+//        double z = Math.min(x, y);
+//        System.out.println(z);
+
+//        double x;
+//        double y;
+//        double z;
+//
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter side x: ");
+//        x = scanner.nextDouble();
+//        System.out.println("Enter side y: ");
+//        y = scanner.nextDouble();
+//
+//        z =Math.sqrt((x*x)+(y*y));
+//
+//        System.out.println("The Hypotenuse is "+z);
+//
+//        scanner.close();
     }
 }
