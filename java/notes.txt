@@ -1,0 +1,25 @@
+data type           size            primitive/reference             value
+------------------------------------------------------------------------------------------------------------------------
+boolean             1 bit               primitive               true or false
+byte                1 byte              primitive               -128 to 127
+short               2 bytes             primitive               -32,768 to 32,767
+int                 4 bytes             primitive               -2 billion to 2 billion
+long                8 bytes             primitive               -9 quintillion to 9 quintillion
+float               4 bytes             primitive               fractional number up to 6-7 digits ex. 3.141592f
+double              8 bytes             primitive               fractional number up to 15 digits ex. 314159265358793
+char                2 bytes             primitive               single character/letter/ASCII value ex. 'f'
+string              varies              reference               a sequence of characters ex. "Hello world!"
+
+primitive                                   vs                      reference
+------------------------------------------------------------------------------------------------------------------------
+8 types (boolean, byte, etc.)                                   unlimited (user defined)
+stores data                                                     stores an address
+can only hold 1 value                                           can hold more than 1 value
+less memory                                                     more memory
+fast                                                            slower
+
+how to create a variable
+------------------------------------------------------------------------------------------------------------------------
+int x;          declaration
+x = 123;        assignment
+int x = 123;    initialization
