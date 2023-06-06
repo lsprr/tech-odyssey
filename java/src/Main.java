@@ -5,7 +5,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 //        Variables
-
+//
 //        int x = 123;
 //        float y = 3.14f;
 //        boolean z = true;
@@ -14,7 +14,7 @@ public class Main {
 //        System.out.println(name);
 //        --------------------------------------------------------------------------------------------------------------
 //        Swap two variables
-
+//
 //        String x = "Water";
 //        String y = "Kool-Aid";
 //        String temporary;
@@ -27,16 +27,16 @@ public class Main {
 //        System.out.println("x: " + y);
 //        --------------------------------------------------------------------------------------------------------------
 //        User input
-
+//
 //        Scanner scanner = new Scanner(System.in);
-
+//
 //        System.out.println("What is your name? ");
 //        String name = scanner.nextLine();
-
+//
 //        System.out.println("How old are you? ");
 //        int age = scanner.nextInt();
 //        scanner.nextLine();
-
+//
 //        System.out.println("What is your favorite food?");
 //        String food = scanner.nextLine();
 //
@@ -47,13 +47,13 @@ public class Main {
 //        Expression = operands & operators
 //        Operands = values, variables, numbers, quantity
 //        Operators = + - * / %
-
+//
 //        int friends = 10;
 //        friends = friends + 1;
 //        System.out.println(friends);
 //        --------------------------------------------------------------------------------------------------------------
 //        GUI intro
-
+//
 //        String name = JOptionPane.showInputDialog("Enter your name");
 //        JOptionPane.showMessageDialog(null, "Hello "+name);
 //
@@ -70,7 +70,7 @@ public class Main {
 //
 //        double z = Math.min(x, y);
 //        System.out.println(z);
-
+//
 //        double x;
 //        double y;
 //        double z;
@@ -88,7 +88,7 @@ public class Main {
 //        scanner.close();
 //        --------------------------------------------------------------------------------------------------------------
 //        Random Number
-
+//
 //        Random random = new Random();
 //        int x = random.nextInt(6);
 //        double y = random.nextDouble();
@@ -96,7 +96,7 @@ public class Main {
 //        System.out.println(z);
 //        --------------------------------------------------------------------------------------------------------------
 //        If Statement
-
+//
 //        int age = 75;
 //
 //        if (age == 75) {
@@ -141,7 +141,7 @@ public class Main {
 //        }
 //        --------------------------------------------------------------------------------------------------------------
 //        Logical Operators
-
+//
 //        int temp = 15;
 //
 //        if (temp > 30) {
@@ -151,15 +151,29 @@ public class Main {
 //        } else {
 //            System.out.println("It is cold outside");
 //        }
+//
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("You are playing a game! Press q or Q to quit");
+//        String response = scanner.next();
+//
+//        if (!response.equals("q") || !response.equals("Q")) {
+//            System.out.println("You are still playing the game *pew pew*");
+//        } else {
+//            System.out.println("You quit the game");
+//        }
+//        --------------------------------------------------------------------------------------------------------------
+//        While Loop
+//
+//        Scanner scanner = new Scanner(System.in);
+//        String name = "";
+//
+//        while (name.isBlank()) {
+//            System.out.println("Enter your name: ");
+//            name = scanner.nextLine();
+//        }
+//
+//        System.out.println("Hello " + name);
+//        --------------------------------------------------------------------------------------------------------------
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("You are playing a game! Press q or Q to quit");
-        String response = scanner.next();
-
-        if (!response.equals("q") || !response.equals("Q")) {
-            System.out.println("You are still playing the game *pew pew*");
-        } else {
-            System.out.println("You quit the game");
-        }
     }
 }
