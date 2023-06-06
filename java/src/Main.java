@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.util.Scanner;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -85,5 +86,15 @@ public class Main {
 //        System.out.println("The Hypotenuse is "+z);
 //
 //        scanner.close();
+//        --------------------------------------------------------------------------------------------------------------
+//        Random Number
+
+//        Random random = new Random();
+//        int x = random.nextInt(6);
+//        double y = random.nextDouble();
+//        boolean z = random.nextBoolean();=
+//        System.out.println(z);
+//        --------------------------------------------------------------------------------------------------------------
+
     }
 }
