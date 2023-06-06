@@ -95,6 +95,21 @@ public class Main {
 //        boolean z = random.nextBoolean();=
 //        System.out.println(z);
 //        --------------------------------------------------------------------------------------------------------------
+//        If Statement
+
+//        int age = 75;
+//
+//        if (age == 75) {
+//            System.out.println("You are an adult!");
+//        } else if (age >= 18) {
+//            System.out.println("Ok Boomer!");
+//        } else if (age >= 13) {
+//            System.out.println("You are a teenager!");
+//        } else {
+//            System.out.println("YOu are not an adult!");
+//        }
+//    }
+//        --------------------------------------------------------------------------------------------------------------
 
     }
 }
