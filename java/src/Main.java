@@ -486,6 +486,19 @@ public class Main {
 //        Please check DiceRoller.java in src/
 //        DiceRoller diceRoller = new DiceRoller();
 //        --------------------------------------------------------------------------------------------------------------
+//        Overloaded Constructors
+//
+//        Multiple constructors within a class with the same name, but have different parameters
+//        name + parameters = signature
+//
+//        Please check Pizza.java in src/
+//        Pizza pizza = new Pizza();
+//        System.out.println("There are the ingredients of your pizza: ");
+//        System.out.println(pizza.bread);
+//        System.out.println(pizza.sauce);
+//        System.out.println(pizza.cheese);
+//        System.out.println(pizza.topping);
+//        --------------------------------------------------------------------------------------------------------------
 
     }
 }
