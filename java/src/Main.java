@@ -260,5 +260,20 @@ public class Main {
 //            }
 //        }
 //        --------------------------------------------------------------------------------------------------------------
+//        String Methods
+//
+//        String name = "Luis";
+//        boolean result = name.equalsIgnoreCase("Luis");
+//        int result = name.length();
+//        char result = name.charAt(0);
+//        int result = name.indexOf("L");
+//        boolean result = name.isEmpty();
+//        String result = name.toUpperCase();
+//        String result = name.toLowerCase();
+//        String result = name.trim();
+//        String result = name.replace('u', 'a');
+//
+//        System.out.println(result);
+//        --------------------------------------------------------------------------------------------------------------
     }
 }
