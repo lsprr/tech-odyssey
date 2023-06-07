@@ -9,7 +9,7 @@ public class Main {
 //        String name = "Luis";
 //        System.out.println(name);
 //        --------------------------------------------------------------------------------------------------------------
-//        Swap two variables
+//        Swap Two Variables
 //
 //        String x = "Water";
 //        String y = "Kool-Aid";
@@ -22,7 +22,7 @@ public class Main {
 //        System.out.println("x: " + x);
 //        System.out.println("x: " + y);
 //        --------------------------------------------------------------------------------------------------------------
-//        User input
+//        User Input
 //
 //        Scanner scanner = new Scanner(System.in);
 //
@@ -40,7 +40,7 @@ public class Main {
 //        System.out.println("You are "+age+" years old");
 //        System.out.println("You like"+food);
 //        --------------------------------------------------------------------------------------------------------------
-//        Expression = operands & operators
+//        Expression = Operands & Operators
 //        Operands = values, variables, numbers, quantity
 //        Operators = + - * / %
 //
@@ -48,7 +48,7 @@ public class Main {
 //        friends = friends + 1;
 //        System.out.println(friends);
 //        --------------------------------------------------------------------------------------------------------------
-//        GUI intro
+//        GUI Intro
 //
 //        String name = JOptionPane.showInputDialog("Enter your name");
 //        JOptionPane.showMessageDialog(null, "Hello "+name);
@@ -59,7 +59,7 @@ public class Main {
 //        Double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
 //        JOptionPane.showMessageDialog(null, "You are"+height+" cm tall");
 //        --------------------------------------------------------------------------------------------------------------
-//        Math class
+//        Math Class
 //
 //        double x = 3.14;
 //        double y = -10;
@@ -380,6 +380,43 @@ public class Main {
 //            return x + y;
 //        }
 //        --------------------------------------------------------------------------------------------------------------
-
+//        Overloaded Methods
+//
+//        Methods that share the same name but have different parameters
+//        Method name + parameters = method signature
+//
+//        int x = sum(1, 2, 3);
+//        System.out.println(x);
+//
+//        static int sum(int a, int b) {
+//            System.out.println("This is overloaded method #1");
+//            return a + b;
+//        }
+//
+//        static int sum(int a, int b, int c) {
+//            System.out.println("This is overloaded method #2");
+//            return a + b + c;
+//        }
+//
+//        static int sum(int a, int b, int c, int d) {
+//            System.out.println("This is overloaded method #3");
+//            return a + b + c + d;
+//        }
+//
+//        static double sum(double a, double b) {
+//            System.out.println("This is overloaded method #4");
+//            return a + b;
+//        }
+//
+//        static double sum(double a, double b, double c) {
+//            System.out.println("This is overloaded method #5");
+//            return a + b + c;
+//        }
+//
+//        static double sum(double a, double b, double c, double d) {
+//            System.out.println("This is overloaded method #6");
+//            return a + b + c + d;
+//        }
+//        --------------------------------------------------------------------------------------------------------------
     }
 }
