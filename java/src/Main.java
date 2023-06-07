@@ -481,6 +481,12 @@ public class Main {
 //        Human human2 = new Human("Morty", 16, 50);
 //        System.out.println(human2.name);
 //        --------------------------------------------------------------------------------------------------------------
+//        Variable Scope
+//
+//        Please check DiceRoller.java in src/
+//        DiceRoller diceRoller = new DiceRoller();
+//        --------------------------------------------------------------------------------------------------------------
+
     }
 }
 
