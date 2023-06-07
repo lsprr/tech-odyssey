@@ -458,5 +458,20 @@ public class Main {
 //        final double PI = 3.14159;
 //        System.out.println(PI);
 //        --------------------------------------------------------------------------------------------------------------
+//        Object Oriented Programming
+//
+//        Object = an instance of a class that may contain attributes and methods
+//        Example: phone, desk, computer, coffee cup
+//
+//        Please check Car.java in src/
+//        Car myCar1 = new Car();
+//        Car myCar2 = new Car();
+//
+//        System.out.println(myCar1.color);
+//        System.out.println(myCar1.make);
+//        System.out.println(myCar1.model);
+//        myCar1.drive();
+//        --------------------------------------------------------------------------------------------------------------
     }
 }
+
