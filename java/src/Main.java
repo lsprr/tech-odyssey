@@ -1,8 +1,3 @@
-import javax.swing.*;
-import java.util.ArrayList;
-import java.util.Scanner;
-import java.util.Random;
-
 public class Main {
     public static void main(String[] args) {
 //        Variables
@@ -361,5 +356,30 @@ public class Main {
 //            System.out.println(i);
 //        }
 //        --------------------------------------------------------------------------------------------------------------
+//        Methods
+//
+//        A block of code that is executed whenever it is called upon
+//
+//        String name = "Luis";
+//        int age = 21;
+//
+//        hello(name, age);
+//
+//        int x = 3;
+//        int y = 4;
+//        int z = sum(x , y);
+//
+//        System.out.println(z);
+//
+//        static void hello(String name, int age) {
+//            System.out.println("Hello" + " " + name);
+//            System.out.println("You are" + " " + age);
+//        }
+//
+//        static int sum(int x, int y) {
+//            return x + y;
+//        }
+//        --------------------------------------------------------------------------------------------------------------
+
     }
 }
