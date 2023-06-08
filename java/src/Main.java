@@ -555,6 +555,15 @@ public class Main {
 //        Bicycle bike = new Bicycle();
 //        bike.stop();
 //        --------------------------------------------------------------------------------------------------------------
+//        Method Overriding
+//
+//        Declaring a method in sub class, which is already present in parent class.
+//        Done so that a child class can give its own implementation
+//
+//        Dog dog = new Dog();
+//        dog.speak();
+//        --------------------------------------------------------------------------------------------------------------
+
     }
 }
 
