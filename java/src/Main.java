@@ -546,6 +546,15 @@ public class Main {
 //        System.out.println(Friend.numberOfFriends);
 //        Friend.displayFriends();
 //        --------------------------------------------------------------------------------------------------------------
+//        Inheritance
+//
+//        The process where one class acquires, the attributes and methods of another.
+//
+//        Car car = new Car("BMW");
+//        car.go();
+//        Bicycle bike = new Bicycle();
+//        bike.stop();
+//        --------------------------------------------------------------------------------------------------------------
     }
 }
 
