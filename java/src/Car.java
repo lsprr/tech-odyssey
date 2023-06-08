@@ -1,12 +1,17 @@
 public class Car {
-//    Characteristics
+    //    Characteristics
+    String name;
     String make = "Chevrolet";
     String model = "Corvette";
     int year = 2020;
     String color = "blue";
     double price = 50000.00;
 
-//    Methods
+    Car(String name) {
+        this.name = name;
+    }
+
+    //    Methods
     void drive() {
         System.out.println("You drive the car");
     }
