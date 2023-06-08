@@ -586,6 +586,16 @@ public class Main {
 //        Car car = new Car("BMW");
 //        car.go();
 //        --------------------------------------------------------------------------------------------------------------
+//        Access Modifiers
+//
+//        Modifiers | Class | Package | Subclass | World
+//        Public      Y     | Y       | Y        | Y
+//        Protected   Y     | Y       | Y        | N
+//        No modifier Y     | Y       | N        | N
+//        Private     Y     | N       | N        | N
+//
+//        Please check package1 and package2
+//        --------------------------------------------------------------------------------------------------------------
 
     }
 }
