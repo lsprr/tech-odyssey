@@ -577,6 +577,15 @@ public class Main {
 //
 //        System.out.println(hero2.toString());
 //        --------------------------------------------------------------------------------------------------------------
+//        Abstract
+//
+//        Abstract classes cannot be instantiated, but they can have a subclass
+//        Abstract methods are declared without an implementation
+//
+//        Vehicle1 vehicle = new Vehicle1();
+//        Car car = new Car("BMW");
+//        car.go();
+//        --------------------------------------------------------------------------------------------------------------
 
     }
 }

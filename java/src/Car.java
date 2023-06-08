@@ -1,4 +1,4 @@
-public class Car extends Vehicle {
+public class Car extends Vehicle1 {
     //    Characteristics
     String name;
     String make = "Chevrolet";
@@ -26,5 +26,10 @@ public class Car extends Vehicle {
 
     public String toString() {
         return make + "\n" + model + "\n" + color + "\n" + year + "\n" + price;
+    }
+
+    @Override
+    void go() {
+        System.out.println("The driver is driving the car");
     }
 }
