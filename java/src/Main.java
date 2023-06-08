@@ -596,6 +596,16 @@ public class Main {
 //
 //        Please check package1 and package2
 //        --------------------------------------------------------------------------------------------------------------
+//        Encapsulation
+//
+//        Attributes of a class will be hidden or private, can be accessed only through methods (Getters & Setters)
+//        We should make attributes private if we don't have a reason to make them public/protected
+//
+//        Car car = new Car("Chevrolet", "Camaro", 2021);
+//        car.setYear(2022);
+//
+//        System.out.println(car.getMake());
+//        --------------------------------------------------------------------------------------------------------------
 
     }
 }
