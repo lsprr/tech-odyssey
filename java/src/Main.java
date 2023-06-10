@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -686,28 +687,45 @@ public class Main {
 //        An event that occurs during the execution of a program that,
 //        disrupts the normal flow of instructions
 //
-        Scanner scanner = new Scanner(System.in);
-
-        try {
-
-            System.out.println("Enter a whole number to divide: ");
-            int x = scanner.nextInt();
-
-            System.out.println("Enter a whole number to divide by: ");
-            int y = scanner.nextInt();
-
-            int z = x / y;
-
-            System.out.println("result: " + z);
-        } catch (ArithmeticException e) {
-            System.out.println("You can't divide by zero");
-        } catch (InputMismatchException e) {
-            System.out.println("Please enter a number");
-        } catch (Exception e) {
-            System.out.println("Something went wrong");
-        } finally {
-            scanner.close();
-        }
+//        Scanner scanner = new Scanner(System.in);
+//
+//        try {
+//
+//            System.out.println("Enter a whole number to divide: ");
+//            int x = scanner.nextInt();
+//
+//            System.out.println("Enter a whole number to divide by: ");
+//            int y = scanner.nextInt();
+//
+//            int z = x / y;
+//
+//            System.out.println("result: " + z);
+//        } catch (ArithmeticException e) {
+//            System.out.println("You can't divide by zero");
+//        } catch (InputMismatchException e) {
+//            System.out.println("Please enter a number");
+//        } catch (Exception e) {
+//            System.out.println("Something went wrong");
+//        } finally {
+//            scanner.close();
+//        }
+//        --------------------------------------------------------------------------------------------------------------
+//        File Class
+//
+//        An abstract representation of file and directory path names
+//
+//        File file = new File("message.txt");
+//
+//        if (file.exists()) {
+//            System.out.println("That file exists");
+//            System.out.println(file.getPath());
+//            System.out.println(file.getAbsolutePath());
+//            System.out.println(file.isFile());
+//            file.delete();
+//        } else {
+//            System.out.println("That file does not exist");
+//        }
+//        --------------------------------------------------------------------------------------------------------------
     }
 }
 
