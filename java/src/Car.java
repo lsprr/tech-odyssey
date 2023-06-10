@@ -43,6 +43,10 @@ public class Car extends Vehicle1 {
         this.setYear(year);
     }
 
+    Car(Car x) {
+        this.copy(x);
+    }
+
     public String getMake() {
         return make;
     }
@@ -65,6 +69,12 @@ public class Car extends Vehicle1 {
 
     public void setYear(int year) {
         this.year = year;
+    }
+
+    public void copy(Car x) {
+        this.setMake(x.getMake());
+        this.setModel(x.getModel());
+        this.setYear(x.getYear());
     }
 
     @Override
