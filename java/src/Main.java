@@ -638,6 +638,21 @@ public class Main {
 //        fish.flee();
 //        fish.hunt();
 //        --------------------------------------------------------------------------------------------------------------
+//        Polymorphism
+//
+//        Greek word for poly-"many", morph-"form"
+//        The ability of an object to identify as more than one type
+//
+//        Car car = new Car("Rogue", "Nissan", 2022);
+//        Bicycle bicycle = new Bicycle();
+//        Boat boat = new Boat();
+//
+//        Vehicle[] racers = {car, bicycle, boat};
+//
+//        for (Vehicle x : racers) {
+//            x.go();
+//        }
+//        --------------------------------------------------------------------------------------------------------------
     }
 }
 

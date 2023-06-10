@@ -1,4 +1,4 @@
-public class Car extends Vehicle1 {
+public class Car extends Vehicle {
 //    //    Characteristics
 //    String name;
 //    String make = "Chevrolet";
@@ -78,7 +78,12 @@ public class Car extends Vehicle1 {
     }
 
     @Override
-    void go() {
-
+    public void go() {
+        System.out.println("The car begins moving");
     }
+
+//    @Override
+//    void go() {
+//
+//    }
 }
