@@ -624,9 +624,20 @@ public class Main {
 //        System.out.println(car2.getModel());
 //        System.out.println(car2.getYear());
 //        --------------------------------------------------------------------------------------------------------------
-
+//        Interface
+//
+//        A template that can be applied to a class. Similar to inheritance, but specifics what a class has/must do.
+//        classes can apply more than one interface, inheritance is limited to 1 super
+//
+//        Rabbit rabbit = new Rabbit();
+//        Hawk hawk = new Hawk();
+//        Fish fish = new Fish();
+//
+//        rabbit.flee();
+//        hawk.hunt();
+//        fish.flee();
+//        fish.hunt();
 //        --------------------------------------------------------------------------------------------------------------
-
     }
 }
 
