@@ -1,4 +1,6 @@
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -724,6 +726,17 @@ public class Main {
 //            file.delete();
 //        } else {
 //            System.out.println("That file does not exist");
+//        }
+//        --------------------------------------------------------------------------------------------------------------
+//        FileWriter
+//
+//        try {
+//            FileWriter writer = new FileWriter("poem.txt");
+//            writer.write("Roses are red \nVoilets are blue \nBooty booty booty boooty \nRockin' everywhere!");
+//            writer.append("\nHi");
+//            writer.close();
+//        } catch (IOException e) {
+//            e.printStackTrace();
 //        }
 //        --------------------------------------------------------------------------------------------------------------
     }
