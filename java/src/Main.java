@@ -1,3 +1,6 @@
+import javax.sound.sampled.*;
+import javax.swing.*;
+import java.awt.*;
 import java.io.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -753,6 +756,67 @@ public class Main {
 //        } catch (IOException e) {
 //            throw new RuntimeException(e);
 //        }
+//        --------------------------------------------------------------------------------------------------------------
+//        Audio
+//
+//        Scanner scanner = new Scanner(System.in);
+//
+//        File file = new File("Level_Up.wav");
+//        try {
+//            AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
+//            Clip clip = AudioSystem.getClip();
+//            clip.open(audioStream);
+//
+//            String response = "";
+//
+//            while (!response.equals("Q")) {
+//                System.out.println("P = play, S = Stop, R = Reset, Q = Quit");
+//                System.out.println("Enter your choice: ");
+//
+//                response = scanner.next();
+//                response = response.toUpperCase();
+//
+//                switch (response) {
+//                    case ("P"):
+//                        clip.start();
+//                        break;
+//                    case ("S"):
+//                        clip.stop();
+//                        break;
+//                    case ("R"):
+//                        clip.setMicrosecondPosition(0);
+//                        break;
+//                    case ("Q"):
+//                        clip.close();
+//                        break;
+//                    default:
+//                        System.out.println("Not a valid response");
+//                }
+//            }
+//
+//            System.out.println("Bye!");
+//
+//        } catch (UnsupportedAudioFileException | IOException | LineUnavailableException e) {
+//            throw new RuntimeException(e);
+//        }
+//        --------------------------------------------------------------------------------------------------------------
+//        GUI
+//
+//        JFrame = a GUI window to add components to
+//
+//        JFrame frame = new JFrame(); // creates a frame
+//
+//        frame.setVisible(true); // sets the x-dimension, and y-dimension of frame
+//        frame.setSize(600, 600); // make frame visible
+//        frame.setTitle("JFrame title goes here"); // sets title of frame
+//        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //exit out of application
+//        frame.setResizable(false); //prevent frame from being resized
+//
+//        ImageIcon image = new ImageIcon("logo.png"); //create an ImageIcon
+//        frame.setIconImage(image.getImage()); //change icon of frame
+//        frame.getContentPane().setBackground(new Color(255, 255, 255)); //change color of background
+//
+//        MyFrame myFrame = new MyFrame();
 //        --------------------------------------------------------------------------------------------------------------
 
     }
