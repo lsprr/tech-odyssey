@@ -8,6 +8,7 @@ public class MyFrame extends JFrame implements ActionListener {
     JLabel label;
 
     JTextField text;
+    JCheckBox checkbox;
 
     MyFrame() {
 //        this.setVisible(true); // sets the x-dimension, and y-dimension of frame
@@ -22,6 +23,8 @@ public class MyFrame extends JFrame implements ActionListener {
 
         ImageIcon icon = new ImageIcon("point.png");
         ImageIcon icon2 = new ImageIcon("face.png");
+        ImageIcon xIcon = new ImageIcon("X.png");
+        ImageIcon checkIcon = new ImageIcon("checkmark.png");
 
         label = new JLabel();
         button = new JButton();
@@ -51,6 +54,13 @@ public class MyFrame extends JFrame implements ActionListener {
         text.setCaretColor(Color.WHITE);
         text.setText("username");
 
+        checkbox.setText("I am not a robot");
+        checkbox.setFocusable(false);
+        checkbox.setFont(new Font("Consolas", Font.PLAIN, 35));
+        checkbox.setIcon(xIcon);
+        checkbox.setSelectedIcon(checkIcon);
+
+
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
         this.setSize(500, 500);
@@ -58,6 +68,7 @@ public class MyFrame extends JFrame implements ActionListener {
         this.add(button);
         this.add(label);
         this.add(text);
+        this.add(checkbox);
     }
 
     @Override
@@ -68,6 +79,7 @@ public class MyFrame extends JFrame implements ActionListener {
             label.setVisible(true);
             System.out.println("Welcome "+text.getText());
             text.setEditable(false);
+            System.out.println(checkbox.isSelected());
         }
     }
 }
