@@ -6,13 +6,12 @@ import java.awt.event.ActionListener;
 public class MyFrame extends JFrame implements ActionListener {
     JButton button;
     JLabel label;
-
     JTextField text;
     JCheckBox checkbox;
-
     JRadioButton pizzaButton;
     JRadioButton hamburgerButton;
     JRadioButton hotdogButton;
+    JComboBox comboBox;
 
     MyFrame() {
 //        this.setVisible(true); // sets the x-dimension, and y-dimension of frame
@@ -84,6 +83,18 @@ public class MyFrame extends JFrame implements ActionListener {
         group.add(hamburgerButton);
         group.add(hotdogButton);
 
+        String[] animals = {"dog", "cat", "bird"};
+        comboBox = new JComboBox(animals);
+        comboBox.addActionListener(this);
+        comboBox.setEditable(true);
+        comboBox.getItemCount();
+        comboBox.addItem("horse");
+        comboBox.insertItemAt("pig", 0);
+        comboBox.setSelectedIndex(0);
+        comboBox.removeItem("horse");
+        comboBox.removeItemAt(0);
+        comboBox.removeAllItems();
+
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
         this.setSize(500, 500);
@@ -95,6 +106,7 @@ public class MyFrame extends JFrame implements ActionListener {
         this.add(pizzaButton);
         this.add(hamburgerButton);
         this.add(hotdogButton);
+        this.add(comboBox);
     }
 
     @Override
@@ -114,6 +126,11 @@ public class MyFrame extends JFrame implements ActionListener {
             System.out.println("You ordered a hamburger!");
         } else if (e.getSource() == hotdogButton) {
             System.out.println("You ordered a hotdog!");
+        }
+
+        if (e.getSource() == comboBox) {
+            System.out.println(comboBox.getSelectedItem());
+            System.out.println(comboBox.getSelectedIndex());
         }
     }
 }
