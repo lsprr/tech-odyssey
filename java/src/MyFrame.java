@@ -10,6 +10,10 @@ public class MyFrame extends JFrame implements ActionListener {
     JTextField text;
     JCheckBox checkbox;
 
+    JRadioButton pizzaButton;
+    JRadioButton hamburgerButton;
+    JRadioButton hotdogButton;
+
     MyFrame() {
 //        this.setVisible(true); // sets the x-dimension, and y-dimension of frame
 //        this.setSize(600, 600); // make frame visible
@@ -25,6 +29,9 @@ public class MyFrame extends JFrame implements ActionListener {
         ImageIcon icon2 = new ImageIcon("face.png");
         ImageIcon xIcon = new ImageIcon("X.png");
         ImageIcon checkIcon = new ImageIcon("checkmark.png");
+        ImageIcon pizzaIcon = new ImageIcon("pizza.png");
+        ImageIcon hamburgerIcon = new ImageIcon("hamburger.png");
+        ImageIcon hotdogIcon = new ImageIcon("hotdog.png");
 
         label = new JLabel();
         button = new JButton();
@@ -60,6 +67,22 @@ public class MyFrame extends JFrame implements ActionListener {
         checkbox.setIcon(xIcon);
         checkbox.setSelectedIcon(checkIcon);
 
+        pizzaButton = new JRadioButton("pizza");
+        hamburgerButton = new JRadioButton("hamburger");
+        hotdogButton = new JRadioButton("hotdog");
+
+        pizzaButton.addActionListener(this);
+        hamburgerButton.addActionListener(this);
+        hotdogButton.addActionListener(this);
+
+        pizzaButton.setIcon(pizzaIcon);
+        hamburgerButton.setIcon(hamburgerIcon);
+        hotdogButton.setIcon(hotdogIcon);
+
+        ButtonGroup group = new ButtonGroup();
+        group.add(pizzaButton);
+        group.add(hamburgerButton);
+        group.add(hotdogButton);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
@@ -69,6 +92,9 @@ public class MyFrame extends JFrame implements ActionListener {
         this.add(label);
         this.add(text);
         this.add(checkbox);
+        this.add(pizzaButton);
+        this.add(hamburgerButton);
+        this.add(hotdogButton);
     }
 
     @Override
@@ -80,6 +106,14 @@ public class MyFrame extends JFrame implements ActionListener {
             System.out.println("Welcome "+text.getText());
             text.setEditable(false);
             System.out.println(checkbox.isSelected());
+        }
+
+        if (e.getSource() == pizzaButton) {
+            System.out.println("You ordered pizza!");
+        } else if (e.getSource() == hamburgerButton) {
+            System.out.println("You ordered a hamburger!");
+        } else if (e.getSource() == hotdogButton) {
+            System.out.println("You ordered a hotdog!");
         }
     }
 }
