@@ -7,6 +7,8 @@ public class MyFrame extends JFrame implements ActionListener {
     JButton button;
     JLabel label;
 
+    JTextField text;
+
     MyFrame() {
 //        this.setVisible(true); // sets the x-dimension, and y-dimension of frame
 //        this.setSize(600, 600); // make frame visible
@@ -23,6 +25,7 @@ public class MyFrame extends JFrame implements ActionListener {
 
         label = new JLabel();
         button = new JButton();
+        text = new JTextField();
 
         label.setIcon(icon2);
         label.setBounds(150, 250, 150, 150);
@@ -41,12 +44,20 @@ public class MyFrame extends JFrame implements ActionListener {
         button.setBackground(Color.LIGHT_GRAY);
         button.setBorder(BorderFactory.createEtchedBorder());
 
+        text.setPreferredSize(new Dimension(250, 40));
+        text.setFont(new Font("Consolas", Font.PLAIN, 35));
+        text.setForeground(Color.GREEN);
+        text.setBackground(Color.BLACK);
+        text.setCaretColor(Color.WHITE);
+        text.setText("username");
+
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
         this.setSize(500, 500);
         this.setVisible(true);
         this.add(button);
         this.add(label);
+        this.add(text);
     }
 
     @Override
@@ -55,6 +66,8 @@ public class MyFrame extends JFrame implements ActionListener {
             System.out.println("Hi");
             button.setEnabled(false);
             label.setVisible(true);
+            System.out.println("Welcome "+text.getText());
+            text.setEditable(false);
         }
     }
 }
