@@ -1129,6 +1129,12 @@ public class Main {
 //
 //        SliderDemo sliderDemo = new SliderDemo();
 //        --------------------------------------------------------------------------------------------------------------
+//        Progress Bar
+//
+//        Visual aid to let the user know that an operation is processing
+//
+//        ProgressBarDemo demo = new ProgressBarDemo();
+//        --------------------------------------------------------------------------------------------------------------
     }
 }
 
